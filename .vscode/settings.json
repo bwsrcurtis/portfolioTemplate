@@ -1,0 +1,19 @@
+{
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"eslint.validate": ["javascript"],
+	"editor.insertSpaces": true,
+	"editor.renderWhitespace": "boundary",
+	"editor.rulers": [100],
+	"editor.tabSize": 2,
+	"files.eol": "\n",
+	"files.insertFinalNewline": true,
+	"files.trimTrailingWhitespace": true,
+	"javascript.preferences.importModuleSpecifierEnding": "js",
+	"search.exclude": {
+	  ".nyc_output": true,
+	  "coverage": true,
+	  "dist": true,
+	},
+}

@@ -1,0 +1,15 @@
+{
+  "extends": ["next/core-web-vitals", "next"],
+  "rules": {
+    "quotes": [
+        1,
+        "single"
+    ],
+    "semi": [
+        1,
+        "always"
+    ],
+    "no-multi-spaces": [
+        1
+    ]
+}}
