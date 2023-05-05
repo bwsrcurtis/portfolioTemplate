@@ -8,22 +8,22 @@ const Header = () => {
 		<header className='flex justify-between items-center px-12 py-1 relative bg-primary h-14'>
 			<Link href='/' className='flex items-center space-x-2'>
 				<Image src='logo.svg' alt="logo" width={50} height={50} className=' fill-text'></Image>
-				<h1 className='text-text md:text-3xl text-xl'>Your Portfolio</h1>
+				<h1 className='text-text md:text-3xl text-xl'>Artistry</h1>
 			</Link>
 			<nav className='space-x-10 text-lg'>
 				<a
 					href='/#offerings'
 					className="hover:underline hidden lg:inline">
-					What We Offer
+					Who I am
 				</a>
 				<a href='/#work' className="hover:underline hidden lg:inline">
-					Templates
+					My Work
 				</a>
 
 				<button
 					className='w-30 z-10 hover:bg-tertiary bg-secondary
 					p-2 rounded-lg hidden md:inline'>
-					<a href='/#getstarted'>Build Now</a>
+					<a href='/#getstarted'>Get in Touch</a>
 				</button>
 
 			</nav>
