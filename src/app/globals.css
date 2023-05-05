@@ -10,4 +10,5 @@ body {
 	color: rgb(var(--foreground-rgb));
 	overflow-x: hidden;
 	background-color: #222831;
+	min-height: 100%;
 }
