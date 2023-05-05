@@ -1,7 +1,7 @@
 
 export default function Home() {
   return (
-    <main className="bg-secondary">
+    <main className="bg-background min-h-[calc(100vh-112px)]">
     </main>
   );
 }

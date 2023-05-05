@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 :root {
-	--foreground-rgb: 238, 238, 238;
+	--foreground-rgb: #000000;
 }
 
 body {
 	color: rgb(var(--foreground-rgb));
 	overflow-x: hidden;
-	background-color: #222831;
+	background-color: #94a8b3;
 	min-height: 100%;
 }

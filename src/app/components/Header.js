@@ -7,8 +7,8 @@ const Header = () => {
 	return (
 		<header className='flex justify-between items-center px-12 py-1 relative bg-primary h-14'>
 			<Link href='/' className='flex items-center space-x-2'>
-				<Image src='logo.svg' alt="logo" width={50} height={50} className=' fill-white'></Image>
-				<h1 className='text-white md:text-3xl text-xl'>Beachside Design</h1>
+				<Image src='logo.svg' alt="logo" width={50} height={50} className=' fill-text'></Image>
+				<h1 className='text-text md:text-3xl text-xl'>Your Portfolio</h1>
 			</Link>
 			<nav className='space-x-10 text-lg'>
 				<a
@@ -21,7 +21,7 @@ const Header = () => {
 				</a>
 
 				<button
-					className='w-30 z-10 hover:bg-background bg-secondary
+					className='w-30 z-10 hover:bg-tertiary bg-secondary
 					p-2 rounded-lg hidden md:inline'>
 					<a href='/#getstarted'>Build Now</a>
 				</button>
