@@ -3,11 +3,12 @@ import Image from 'next/image.js';
 
 const About = () => {
   return (
-    <div id='about' className='flex mx-12 gap-4 w-full py-48 items-center group'>
+    <div id='about' className='xl:flex xl:mx-12 gap-2 w-full py-48 items-center group'>
       <Image src='/person.jpg' width={2400} height={1600} alt="Picture of the designer"
-        className='w-[calc(50%-3.5rem)] border-2 border-text border-solid'></Image>
-      <div className='w-[calc(50%-3.5rem)]'>
-        <p className='leading-none tracking-tight text-6xl text-left'>
+        className='mx-auto mb-8 w-full xl:mb-0 xl:w-[calc(50%-3.25rem)]
+         border-2 border-text border-solid'></Image>
+      <div className='mx-auto w-full xl:w-[calc(50%-3.25rem)]'>
+        <p className='leading-none tracking-tight text-5xl xl:text-6xl text-left'>
           Hi there, I&apos;m a
           <span className='group-hover:text-tertiary transition delay-75 duration-1000'> designer </span>
           with a passion for creating meaningful and
