@@ -22,7 +22,7 @@ const Header = () => {
 
 				<button
 					className='w-30 z-10 hover:scale-105 hover:bg-tertiary bg-secondary
-					transition delay-100 p-2 rounded-lg hidden md:inline'>
+					transition delay-100 p-2 border-black border hidden md:inline'>
 					<a href='/#contact'>Get in Touch</a>
 				</button>
 

@@ -34,8 +34,8 @@ const Form = () => {
         border-background mb-4 text-text placeholder:text-primary/75'
           placeholder='Your Message'></textarea>
         <button type='submit'
-          className='w-full h-12 rounded-lg text-xl transition delay-100 hover:scale-105
-        hover:bg-secondary bg-primary'>
+          className='w-full h-12 text-xl transition delay-100 hover:scale-105
+        hover:bg-secondary bg-primary border-black border'>
           Submit</button>
       </form>
     </>
