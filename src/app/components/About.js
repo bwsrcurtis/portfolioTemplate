@@ -17,7 +17,7 @@ const About = () => {
           <br></br>
           <br></br>
           Design is not just about
-          <span className='group-hover:text-secondary transition delay-300 duration-1000'> aesthetics,</span>
+          <span className='group-hover:text-secondary transition delay-300 duration-1000'> aesthetics, </span>
           but also about solving
           problems and communicating messages
           <span className='group-hover:text-tertiary transition delay-[600ms] duration-1000'> effectively.</span>
