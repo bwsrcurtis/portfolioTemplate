@@ -5,19 +5,19 @@ import Link from 'next/link';
 const Header = () => {
 
 	return (
-		<header className='flex justify-between items-center px-12 py-1 relative bg-primary h-14'>
+		<header className='flex justify-between items-center px-12 py-1 relative h-14'>
 			<Link href='/' className='flex items-center space-x-2'>
 				<Image src='logo.svg' alt="logo" width={50} height={50} className=' fill-text'></Image>
 				<h1 className='text-text md:text-3xl text-xl'>Artistry</h1>
 			</Link>
 			<nav className='space-x-10 text-lg'>
 				<a
-					href='/#offerings'
+					href='/#work'
 					className="hover:underline hidden lg:inline">
-					Who I am
+					Work
 				</a>
-				<a href='/#work' className="hover:underline hidden lg:inline">
-					My Work
+				<a href='/#about' className="hover:underline hidden lg:inline">
+					About
 				</a>
 
 				<button

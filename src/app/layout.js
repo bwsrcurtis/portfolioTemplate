@@ -1,13 +1,13 @@
 import './globals.css';
-import { Nunito_Sans } from 'next/font/google';
+import { Montserrat } from 'next/font/google';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
-const inter = Nunito_Sans({ weight: ['variable'], subsets: ['latin'] });
+const inter = Montserrat({ weight: ['variable'], subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Beachside Design',
-  description: 'Static Sites For Your Small Business',
+  title: 'Portfolio Template',
+  description: 'Portfolio Site Template',
 };
 
 export default function RootLayout({ children }) {
