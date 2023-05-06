@@ -21,8 +21,8 @@ const Header = () => {
 				</a>
 
 				<button
-					className='w-30 z-10 hover:bg-tertiary bg-secondary
-					p-2 rounded-lg hidden md:inline'>
+					className='w-30 z-10 hover:scale-105 hover:bg-tertiary bg-secondary
+					transition delay-100 p-2 rounded-lg hidden md:inline'>
 					<a href='/#getstarted'>Get in Touch</a>
 				</button>
 
