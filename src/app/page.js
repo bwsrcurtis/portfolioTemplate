@@ -1,3 +1,4 @@
+import About from './components/About.js';
 import CardCont from './components/CardCont.js';
 import Form from './components/Form.js';
 import Hero from './components/Hero.js';
@@ -7,6 +8,7 @@ export default function Home() {
     <main className=" min-h-[calc(100vh-112px)]">
       <Hero></Hero>
       <CardCont></CardCont>
+      <About></About>
       <Form></Form>
     </main>
   );
