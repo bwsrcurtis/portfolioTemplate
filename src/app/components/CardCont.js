@@ -6,7 +6,7 @@ import tile from '../../../public/tile.jpg';
 
 const CardCont = () => {
   return (
-    <div id='work' className='flex flex-row flex-wrap gap-4 mx-auto justify-center py-48'>
+    <div id='work' className='flex flex-row flex-wrap gap-4 mx-auto justify-center pt-24'>
       <Card
         title='A Splash of Color'
         description='Multimedia painting done on canvas.'
