@@ -21,21 +21,25 @@ const Form = () => {
           name='Name'
           placeholder='Jane Smith'
           className='w-full border-solid border-2 text-lg px-2
-        border-background mb-4 text-text placeholder:text-primary/75'></input>
+        border-background dark:border-darkBackground mb-4 dark:placeholder:text-darkPrimary
+        text-text dark:text-darkText placeholder:text-primary/75'></input>
         <p className='mb-1 text-xl'>Your Email</p>
         <input type='email'
           name='Email'
           placeholder='jane@example.com'
           className='w-full border-solid border-2 text-lg px-2
-        border-background mb-4 text-text placeholder:text-primary/75'></input>
+        border-background dark:border-darkBackground mb-4 dark:placeholder:text-darkPrimary
+        text-text dark:text-darkText placeholder:text-primary/75'></input>
         <p className='mb-1 text-xl'>Message</p>
         <textarea type='textarea' name='Message'
           className='w-full h-48 border-solid border-2 resize-none text-lg px-2
-        border-background mb-4 text-text placeholder:text-primary/75'
+        border-background dark:border-darkBackground mb-4 dark:placeholder:text-darkPrimary
+        text-text dark:text-darkText placeholder:text-primary/75'
           placeholder='Your Message'></textarea>
         <button type='submit'
           className='w-full h-12 text-xl transition delay-100 hover:scale-105
-        hover:bg-secondary bg-primary border-black border'>
+        hover:bg-secondary bg-primary
+         dark:bg-darkSecondary dark:hover:bg-darkPrimary border-black border'>
           Submit</button>
       </form>
     </>
