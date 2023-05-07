@@ -24,7 +24,7 @@ const Header = () => {
 
 				</Image>
 				<h1 className='text-text dark:text-darkText md:text-3xl
-				text-xl leading-none tracking-tight'>Design Studio</h1>
+				text-xl leading-none tracking-tight'>John Smith</h1>
 			</Link>
 			<nav className='flex space-x-10 text-lg items-center'>
 				<a
