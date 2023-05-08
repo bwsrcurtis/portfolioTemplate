@@ -37,7 +37,7 @@ const Header = () => {
 				</a>
 				<button
 					className='w-30 z-10 hover:scale-105 hover:bg-tertiary
-					bg-secondary dark:hover:bg-darkTertiary dark:bg-darkSecondary
+					bg-secondary dark:hover:bg-darkTertiary dark:bg-darkPrimary
 					transition delay-100 p-2 border-black border hidden md:inline'>
 					<a href='/#contact'>Get in Touch</a>
 				</button>

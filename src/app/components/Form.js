@@ -39,7 +39,7 @@ const Form = () => {
         <button type='submit'
           className='w-full h-12 text-xl transition delay-100 hover:scale-105
         hover:bg-secondary bg-primary
-         dark:bg-darkSecondary dark:hover:bg-darkPrimary border-black border'>
+        dark:hover:bg-darkTertiary dark:bg-darkPrimary border-black border'>
           Submit</button>
       </form>
     </>
