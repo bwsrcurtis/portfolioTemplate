@@ -17,7 +17,7 @@ module.exports = {
       'darkText': '#ffffff',
       'darkBackground': '#363636',
       'darkPrimary': '#8c6a57',
-      'darkSecondary': '#34485e',
+      'darkSecondary': '#42648a',
       'darkTertiary': '#7b8f7b',
 
     },
