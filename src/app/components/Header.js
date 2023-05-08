@@ -41,11 +41,11 @@ const Header = () => {
 					transition delay-100 p-2 border-black border hidden md:inline'>
 					<a href='/#contact'>Get in Touch</a>
 				</button>
-				{dark ? <button className='text-3xl'
+				{dark ? <button className='text-3xl' aria-label='Dark Mode Moon'
 					onClick={() => toggleDark()}>
 					<BiMoon />
 				</button> :
-					<button className='text-3xl'
+					<button className='text-3xl' aria-label='Light Mode Sun'
 						onClick={() => toggleDark()}>
 						<BiSun />
 					</button>}
