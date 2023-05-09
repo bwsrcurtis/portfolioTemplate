@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Hero = () => {
+const Hero = ({ heroTitle }) => {
   return (
     <div className='group w-11/12 px-12 mt-32 relative'>
       <div className='absolute w-2/3 h-1/5 md:h-1/4 lg:h-1/3 bg-primary dark:bg-darkPrimary/25
@@ -8,7 +8,7 @@ const Hero = () => {
       ease-in-out duration-[750ms] transition-transform'></div>
       <h1 className='text-[13.5vw] md:text-[11.5vw] my-0 cursor-default
       leading-none tracking-tight mr-4 md:mr-8'>
-        Designing the Future with John Smith
+        {heroTitle}
       </h1>
     </div>
   );
