@@ -16,7 +16,7 @@ export default async function Home() {
 
   return (
     <>
-      <Header logo={data.logo} name={data.name} />
+      <Header logo={data.header.logo} name={data.header.name} />
       <main className="min-h-[calc(100vh-112px)]">
         <Hero heroTitle={data.hero_title}></Hero>
         <CardCont></CardCont>

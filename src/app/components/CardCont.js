@@ -5,6 +5,7 @@ import face from '../../../public/face.jpg';
 import tile from '../../../public/tile.jpg';
 
 const CardCont = () => {
+  console.log();
   return (
     <div id='work' className='flex flex-row flex-wrap gap-4 mx-auto justify-center pt-24'>
       <Card

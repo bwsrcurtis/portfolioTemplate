@@ -1,6 +1,7 @@
 ---
-logo: "/logo.svg"
-name: John Smith
+header:
+  logo: "/logo.svg"
+  name: John Smith
 hero_title: Designing the Future with John Smith
 about_img: "/person.jpg"
 about_text1: Hi there, I'm a designer with a passion for creating meaningful and impactful visual experiences.
