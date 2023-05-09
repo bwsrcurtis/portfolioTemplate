@@ -1,10 +1,19 @@
+'use client';
+
+import matter from 'gray-matter';
 import React from 'react';
 import Image from 'next/image.js';
 
-const About = ({ image, aboutText1, aboutText2 }) => {
+const About = async () => {
+
+
+  const content = await import('../../../content/pages/About/About.md');
+  const local = matter(content.default);
+  const data = local.data;
+
   return (
     <div id='about' className='xl:flex xl:px-12 gap-1 w-full py-48 items-center group'>
-      <Image src={image} width={2400} height={1600} alt="Picture of the designer"
+      <Image src={data.about_img} width={2400} height={1600} alt="Picture of the designer"
         className='mx-auto mb-8 w-full xl:mb-0 xl:w-[calc(50%-3.125rem)]
          border-2 border-text dark:border-darkText border-solid'></Image>
       <div className='mx-auto w-full xl:w-[calc(50%-3.125rem)] flex flex-col gap-8'>
