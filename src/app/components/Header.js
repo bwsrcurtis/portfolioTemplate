@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { BiSun } from 'react-icons/bi';
 import { BiMoon } from 'react-icons/bi';
 
-const Header = () => {
+const Header = ({ logo, name }) => {
 
 	const [dark, setDark] = useState(false);
 
@@ -19,12 +19,12 @@ const Header = () => {
 	return (
 		<header className='flex justify-between items-center px-12 py-1 relative h-14'>
 			<Link href='/' className='flex items-center space-x-2'>
-				<Image src='logo.svg' alt="logo" width={50} height={50}
+				<Image src={logo} alt="logo" width={50} height={50}
 					className='fill-text dark:fill-darkText'>
 
 				</Image>
 				<h1 className='text-text dark:text-darkText md:text-3xl
-				text-xl leading-none tracking-tight'>John Smith</h1>
+				text-xl leading-none tracking-tight'>{name}</h1>
 			</Link>
 			<nav className='flex space-x-10 text-lg items-center'>
 				<a

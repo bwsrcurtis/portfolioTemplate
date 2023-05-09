@@ -16,7 +16,7 @@ export default async function Home() {
 
   return (
     <>
-      <Header />
+      <Header logo={data.logo} name={data.name} />
       <main className="min-h-[calc(100vh-112px)]">
         <Hero heroTitle={data.hero_title}></Hero>
         <CardCont></CardCont>
@@ -25,7 +25,7 @@ export default async function Home() {
           aboutText2={data.about_text2}></About>
         <Form></Form>
       </main>
-      <Footer />
+      <Footer footerText={data.footer_text} />
     </>
   );
 }
