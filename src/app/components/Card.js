@@ -11,7 +11,7 @@ const Card = ({ image, title, description, alt }) => {
        md:flex-row md:max-w-xl cursor-pointer
         hover:bg-tertiary dark:hover:bg-darkTertiary hover:-translate-y-1 transition-all"
         onClick={() => setShowModal(true)}>
-        <Image className="object-cover w-full rounded-t-lg h-96 md:h-full
+        <Image width={600} height={400} className="object-cover w-full rounded-t-lg h-96 md:h-full
         md:w-48 md:rounded-none md:rounded-l-lg"
           src={image} alt={alt}></Image>
         <div className="flex flex-col justify-between p-4 leading-normal">
@@ -30,7 +30,7 @@ const Card = ({ image, title, description, alt }) => {
           focus:outline-none">
             <div className="relative items-start justify-between border border-solid
             border-gray-300 ">
-              <Image className="object-cover w-full"
+              <Image width={600} height={400} className="object-cover w-full"
                 src={image} alt={alt}></Image>
               <p className=' border-t border-text dark:border-darkText pt-4 pl-4 text-2xl font-bold tracking-tight
                bg-secondary dark:bg-darkSecondary'>{title}</p>
