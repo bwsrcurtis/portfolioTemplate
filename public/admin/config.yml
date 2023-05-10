@@ -1,7 +1,7 @@
 backend:
     name: git-gateway
     branch: main # Branch to update (optional; defaults to master)
-media_folder: public/img
+media_folder: public
 public_folder: img
 collections:
     - name: "Content"
@@ -22,3 +22,48 @@ collections:
                       name: "about_text2",
                       widget: "string",
                   }
+          - label: "Cards"
+            name: "cards"
+            file: "content/pages/Cards/Cards.md"
+            fields:
+                - label: "One"
+                  name: "one"
+                  widget: list
+                  fields:
+                    - {label: "Image", name: "image", widget: "string"}
+                      {label: "Title", name: "title", widget: "string"}
+                      {label: "Description", name: "description", widget: "string"}
+                - label: "Two"
+                  name: "two"
+                  widget: list
+                  fields:
+                    - {label: "Image", name: "image", widget: "string"}
+                      {label: "Title", name: "title", widget: "string"}
+                      {label: "Description", name: "description", widget: "string"}
+                - label: "Three"
+                  name: "three"
+                  widget: list
+                  fields:
+                    - {label: "Image", name: "image", widget: "string"}
+                      {label: "Title", name: "title", widget: "string"}
+                      {label: "Description", name: "description", widget: "string"}
+          - label: "Footer"
+            name: "footer"
+            file: "content/pages/Footer/Footer.md"
+            fields:
+                - { label: "Text", name: "footer_text", widget: "string" }
+          - label: "Header"
+            name: "header"
+            file: "content/pages/Header/Header.md"
+            fields:
+                - label: "Header"
+                  name: "Header"
+                  widget: list
+                  fields:
+                    - {label: "Logo Image", name: "logo", widget: "string"}
+                      {label: "Name", name: "name", widget: "string"}
+          - label: "Hero"
+            name: "hero"
+            file: "content/pages/Hero/Hero.md"
+            fields:
+                - { label: "Text", name: "hero_title", widget: "string" }
