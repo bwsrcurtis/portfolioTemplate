@@ -1,0 +1,24 @@
+backend:
+    name: git-gateway
+    branch: main # Branch to update (optional; defaults to master)
+media_folder: public/img
+public_folder: img
+collections:
+    - name: "Content"
+      label: "Content"
+      files:
+          - label: "About"
+            name: "about"
+            file: "content/pages/About/About.md"
+            fields:
+                - { label: "Image", name: "about_img", widget: "string" }
+                - {
+                      label: "Text Paragraph One",
+                      name: "about_text1",
+                      widget: "string",
+                  }
+                - {
+                      label: "Text Paragraph Two",
+                      name: "about_text2",
+                      widget: "string",
+                  }
