@@ -1,3 +1,3 @@
 ---
-hero_title: Designing the Future with Curtis Bowser
+hero_title: Designing the Future with John Smith
 ---

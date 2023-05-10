@@ -22,7 +22,9 @@ module.exports = {
 
     },
     extend: {
-
+      transitionProperty: {
+        'width': 'width'
+      }
     },
   },
   plugins: [],
