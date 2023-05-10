@@ -7,7 +7,6 @@ const CardCont = async () => {
 
 
   let cards = Object.values(content);
-  console.log(cards);
   return (
     <div id='work' className='flex flex-row flex-wrap gap-4 mx-auto justify-center pt-24'>
       {cards.map((i, key) => {
@@ -15,7 +14,7 @@ const CardCont = async () => {
           <Card key={key}
             title={i.data.title}
             description={i.data.description}
-            image={i.data.image}
+            image={i.data.image.slice(3)}
             alt='card image'>
           </Card>);
       })}
