@@ -68,12 +68,8 @@ collections:
             name: "header"
             file: "content/pages/Header/Header.md"
             fields:
-                - label: "Header"
-                  name: "header"
-                  widget: list
-                  fields:
-                      - { label: "Logo Image", name: "logo", widget: "string" }
-                      - { label: "Name", name: "name", widget: "string" }
+                - { label: "Logo Image", name: "logo", widget: "string" }
+                - { label: "Name", name: "name", widget: "string" }
           - label: "Hero"
             name: "hero"
             file: "content/pages/Hero/Hero.md"

@@ -1,5 +1,4 @@
 ---
-header:
-  logo: "/logo.svg"
-  name: John Smith
+logo: "/logo.svg"
+name: John Smith
 ---
