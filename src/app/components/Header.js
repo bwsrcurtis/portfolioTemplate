@@ -1,19 +1,14 @@
 'use client';
-
-import matter from 'gray-matter';
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { BiSun } from 'react-icons/bi';
 import { BiMoon } from 'react-icons/bi';
 
-const Header = async () => {
+const Header = ({ data }) => {
 	const [dark, setDark] = useState(false);
 
 
-	const content = await import('../../../content/pages/Header/Header.md');
-	const local = matter(content.default);
-	const data = local.data;
 
 
 	function toggleDark() {
@@ -63,3 +58,5 @@ const Header = async () => {
 };
 
 export default Header;
+
+
