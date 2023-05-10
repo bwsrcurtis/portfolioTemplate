@@ -37,6 +37,28 @@ collections:
                             name: "description",
                             widget: "string",
                         }
+                - label: "Two"
+                  name: "two"
+                  widget: list
+                  fields:
+                      - { label: "Image", name: "image", widget: "string" }
+                      - { label: "Title", name: "title", widget: "string" }
+                      - {
+                            label: "Description",
+                            name: "description",
+                            widget: "string",
+                        }
+                - label: "Three"
+                  name: "three"
+                  widget: list
+                  fields:
+                      - { label: "Image", name: "image", widget: "string" }
+                      - { label: "Title", name: "title", widget: "string" }
+                      - {
+                            label: "Description",
+                            name: "description",
+                            widget: "string",
+                        }
           - label: "Footer"
             name: "footer"
             file: "content/pages/Footer/Footer.md"
