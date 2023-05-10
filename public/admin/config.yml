@@ -27,9 +27,15 @@ collections:
             folder: "content/pages/Cards/"
             create: true
             fields:
-                - {label: "Title", name:"title", widget:string}
-                - {label: "Image", name:"image", widget:image, media_library: config: multiple: false}
-                - {label: "Description", name:"description", widget:string}
+                - {label: "Title", name: "title", widget: "string"}
+                - {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      media_library:
+                        config:
+                          multiple: false}
+                - {label: "Description", name: "description", widget: "string"}
           - label: "Footer"
             name: "footer"
             file: "content/pages/Footer/Footer.md"
