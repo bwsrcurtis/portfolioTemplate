@@ -1,22 +1,21 @@
-'use client';
-
-import matter from 'gray-matter'; import React from 'react';
+import { getAllCards } from '@/utils/md.js';
+import React from 'react';
 import Card from './Card.js';
 
 const CardCont = async () => {
-  const content = await import('../../../content/pages/Cards/Cards.md');
-  const local = matter(content.default);
-  const data = local.data;
+  const content = getAllCards('Cards');
 
-  let cards = Object.values(data);
+
+  let cards = Object.values(content);
+  console.log(cards);
   return (
     <div id='work' className='flex flex-row flex-wrap gap-4 mx-auto justify-center pt-24'>
       {cards.map((i, key) => {
         return (
           <Card key={key}
-            title={i.title}
-            description={i.description}
-            image={i.image}
+            title={i.data.title}
+            description={i.data.description}
+            image={i.data.image}
             alt='card image'>
           </Card>);
       })}
