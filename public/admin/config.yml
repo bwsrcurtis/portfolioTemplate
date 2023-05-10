@@ -22,18 +22,7 @@ collections:
                       name: "about_text2",
                       widget: "string",
                   }
-          - label: "Cards"
-            name: "cards"
-            folder: "content/pages/Cards/"
-            create: true
-            fields:
-                - { label: "Title", name: "title", widget: "string" }
-                - { label: "Image", name: "image", widget: "image" }
-                - {
-                      label: "Description",
-                      name: "description",
-                      widget: "string",
-                  }
+
           - label: "Footer"
             name: "footer"
             file: "content/pages/Footer/Footer.md"
@@ -50,3 +39,11 @@ collections:
             file: "content/pages/Hero/Hero.md"
             fields:
                 - { label: "Text", name: "hero_title", widget: "string" }
+    - label: "Cards"
+      name: "cards"
+      folder: "content/pages/Cards/"
+      create: true
+      fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Description", name: "description", widget: "string" }
