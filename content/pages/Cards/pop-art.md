@@ -1,5 +1,5 @@
 ---
 title: Pop Art
-image: img/popart.jpg
+image: /popart.jpg
 description: Patterned Art Design on Cement
 ---

@@ -2,7 +2,7 @@ backend:
     name: git-gateway
     branch: main # Branch to update (optional; defaults to master)
 media_folder: public
-public_folder: img
+public_folder: /
 collections:
     - name: "Content"
       label: "Content"
@@ -11,7 +11,7 @@ collections:
             name: "about"
             file: "content/pages/About/About.md"
             fields:
-                - { label: "Image", name: "about_img", widget: "string" }
+                - { label: "Image", name: "about_img", widget: "image" }
                 - {
                       label: "Text Paragraph One",
                       name: "about_text1",
@@ -32,7 +32,7 @@ collections:
             name: "header"
             file: "content/pages/Header/Header.md"
             fields:
-                - { label: "Logo Image", name: "logo", widget: "string" }
+                - { label: "Logo Image", name: "logo", widget: "image" }
                 - { label: "Name", name: "name", widget: "string" }
           - label: "Hero"
             name: "hero"

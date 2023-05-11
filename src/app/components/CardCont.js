@@ -14,7 +14,7 @@ const CardCont = async () => {
           <Card key={key}
             title={i.data.title}
             description={i.data.description}
-            image={i.data.image.slice(3)}
+            image={i.data.image}
             alt='card image'>
           </Card>);
       })}
