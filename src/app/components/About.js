@@ -1,5 +1,4 @@
 import matter from 'gray-matter';
-import React from 'react';
 import Image from 'next/image.js';
 
 const About = async () => {
