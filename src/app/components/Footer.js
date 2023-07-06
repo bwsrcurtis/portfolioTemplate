@@ -1,7 +1,6 @@
 'use client';
 
-import matter from 'gray-matter'; import React from 'react';
-
+import matter from 'gray-matter';
 const Footer = async () => {
 	const content = await import('../../../content/pages/Footer/Footer.md');
 	const local = matter(content.default);
