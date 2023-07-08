@@ -1,7 +1,6 @@
 'use client';
 
 import matter from 'gray-matter';
-import React from 'react';
 
 const Hero = async () => {
 
